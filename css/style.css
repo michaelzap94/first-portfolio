@@ -1,0 +1,49 @@
+     input::-webkit-outer-spin-button,
+     input::-webkit-inner-spin-button {
+       /* display: none; <- Crashes Chrome on hover */
+       -webkit-appearance: none;
+       margin: 0;
+       /* <-- Apparently some margin are still there even though it's hidden */
+     }
+     
+     #forms {
+       position: relative;
+       float: right;
+       border-color: #3c3c3c;
+       border-width: medium;
+       padding-bottom: 5px;
+       border-style: solid;
+       border-radius: 10px;
+     }
+     
+     #picMike {
+       border-radius: 50%;
+     }
+     
+     .modal-dialog {
+       width: 80%;
+       margin: 50px auto;
+     }
+     
+     .modal-body {
+       padding: 0px;
+     }
+     
+     .nav>li>a:hover,
+     .nav>li>a:focus {
+       text-decoration: none;
+       background-color: #2aabd2;
+       color: whitesmoke;
+     }
+     
+     #social li {
+       display: inline-block;
+     }
+     
+     #buttomPage {
+       box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
+       padding: 5px 0;
+       background-color: #286090;
+       text-align: center;
+       color: whitesmoke;
+     }
